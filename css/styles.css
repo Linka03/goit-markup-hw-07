@@ -55,6 +55,7 @@ body {
 
 .header {
   background-color: #ffff;
+  height: 70px;
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
@@ -203,15 +204,18 @@ color: #FFFFFF;
 
 .about-pre-title {
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
   color: var(--title-text-color);
   margin-bottom: 8px;
-  text-align: center;
+  text-align: center; 
 }
 
 .about-text {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -429,6 +433,10 @@ justify-content: center;
   max-width: 264px;
 }
 
+.footer-soc {
+  margin-top: 72px;
+}
+
 .footer-soc-title {
   font-family: "Roboto";
   font-style: normal;
@@ -437,7 +445,6 @@ justify-content: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-top: 72px;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -474,6 +481,10 @@ letter-spacing: 0.02em;
 margin-bottom: 16px;
 color: #FFFFFF;
 text-align: center;
+}
+
+input.footer-input {
+  width: 396px;
 }
 
 .footer-subscribe{

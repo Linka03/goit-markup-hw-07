@@ -35,7 +35,7 @@
   background:var(--second-accent-color);
 border-radius: 2px;
 left: 0;
-bottom: -28px;
+bottom: -20px;
 }
 
 .item-link:hover,
@@ -142,8 +142,8 @@ margin-bottom: 40px;
 }
 
 .team > .container {
-  width: 552px;
-  padding: 0%;
+  width: 582px;
+  padding: 15;
 }
 
 .team-list {
@@ -155,7 +155,7 @@ margin-bottom: 40px;
 
 .customer> .container{
   width: 552px;
-  padding: 0%;
+  padding: 0px 15px;
 }
 
   .customer-list {
@@ -189,7 +189,9 @@ margin-bottom: 40px;
 
 .footer-soc {
   margin-left: 24px;
+  margin-top: 0;
 }
+
 
 .footer-sub-logo {
   text-align: start;
@@ -200,7 +202,7 @@ margin-bottom: 40px;
   flex-wrap: wrap;
 }
 
-.footer-input {
+input.footer-input {
   width: 264px;
 }
 

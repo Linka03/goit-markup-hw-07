@@ -75,6 +75,9 @@ color: #2E2F42;
 
 }
 
+.mob-menu-bottom {
+ margin-bottom: 40px; 
+}
 
 .mob-menu-tel {
 font-weight: 600;
@@ -84,7 +87,7 @@ text-transform: capitalize;
 
 color: #4D5AE5;
 display: inline-block;
-margin-bottom: 40px;
+
 }
 
 .mob-menu-mail {
@@ -94,7 +97,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #434455;
 display: inline-block;
-margin-bottom: 48px;
 }
 
 .mob-soc-list {

@@ -12,10 +12,15 @@
 gap: 40px;
 
   }
+
+  .item-link.current::after{
+    bottom: -28px;
+  }
   
 .main-section {
   padding-top: 187px;
   padding-bottom: 188px;
+  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -65,7 +70,18 @@ gap: 40px;
 
   .about-pre-title {
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: left;
+  }
+
+  .about-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
   }
 
   /*------WORK-------*/
